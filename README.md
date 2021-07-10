@@ -17,8 +17,8 @@ mednoise is the fundamental package needed for medical image pre-processing with
 
 It contains:
 - various algorithms to handle and pre-process large amounts of medical image metadata
-- a highly tuneable interface for many usecases
-- a complex structure that allows for easy integration into workflow/pipeline management systems
+- a highly tuneable interface for a variety of  usecases
+- an inference-compatible structure that allows for easy integration into workflow/pipeline management systems (ex. airflow, luigi, snakemake)
 
 ##### Installation:
 
