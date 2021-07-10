@@ -1,4 +1,4 @@
-# <img alt="mednoise" src="/documentation/logo/mednoiselogo.svg" height="60">
+# <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
 
 **mednoise** is the fundamental package needed for medical image pre-processing with Python.
 
