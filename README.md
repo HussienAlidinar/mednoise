@@ -1,5 +1,7 @@
 # <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
 
+##### Summary 
+
 **mednoise** is the fundamental package needed for medical image pre-processing with Python.
 
 - **Website:** https://mednoise.github.io
@@ -17,4 +19,8 @@ It contains:
 mednoise uses `pip`.  The installation can be run with:
 
     pip install mednoise
+   
+##### License
+
+mednoise is licensed under the `Apache 2.0 License`
 
