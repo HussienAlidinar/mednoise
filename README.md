@@ -1,6 +1,7 @@
 # <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
 
 [![Downloads](https://pepy.tech/badge/mednoise)](https://pepy.tech/project/mednoise)
+[![Version](https://img.shields.io/badge/version-0.2.1-orange)](https://pepy.tech/project/mednoise)
 
 ##### Summary 
 
