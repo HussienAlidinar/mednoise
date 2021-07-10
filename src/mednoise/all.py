@@ -186,7 +186,7 @@ def manual_merge(filepath, find, replace):
     print("md.manual_merge - Image Save:" + str(durationTime))
 
 
-def pixel_find(filepath):
+def manual_find(filepath):
     window = tk.Tk()
     window.title("Pixel Finder")
     window.geometry("960x720")
