@@ -227,7 +227,7 @@ def manual_primer(filepath, find):
     original = []
     endTime = datetime.datetime.now().replace(microsecond=0)
     durationTime = endTime - startTime
-    print ("md.hotspot_primer - Importing Images:" + str(durationTime))
+    print ("md.manual_primer - Importing Images:" + str(durationTime))
     
     
     startTime = datetime.datetime.now().replace(microsecond=0)
@@ -242,7 +242,7 @@ def manual_primer(filepath, find):
         pixel_values1 = list(rgb1.getdata())
         endTime = datetime.datetime.now().replace(microsecond=0)
         durationTime = endTime - startTime
-        print ("md.hotspot_primer - Image" + " " + str(indexor+1) + " Importing:" + str(durationTime))
+        print ("md.manual_primer - Image" + " " + str(indexor+1) + " Importing:" + str(durationTime))
         
         
         startTime = datetime.datetime.now().replace(microsecond=0)
@@ -254,7 +254,7 @@ def manual_primer(filepath, find):
         endTime = datetime.datetime.now().replace(microsecond=0)
         durationTime = endTime - startTime
         startTime = datetime.datetime.now().replace(microsecond=0)
-        print ("md.hotspot_primer - Image" + " " + str(indexor+1) +" Cleaning:" + str(durationTime))
+        print ("md.manual_primer - Image" + " " + str(indexor+1) +" Cleaning:" + str(durationTime))
         
         
         startTime = datetime.datetime.now().replace(microsecond=0)
@@ -267,7 +267,7 @@ def manual_primer(filepath, find):
                     original.append(replace)
         endTime = datetime.datetime.now().replace(microsecond=0)
         durationTime = endTime - startTime
-        print ("md.hotspot_primer - Image" + " " + str(indexor+1) +" Conversion:" + str(durationTime))
+        print ("md.manual_primer - Image" + " " + str(indexor+1) +" Conversion:" + str(durationTime))
         
         
         startTime = datetime.datetime.now().replace(microsecond=0)
@@ -276,7 +276,7 @@ def manual_primer(filepath, find):
         image_out.save(mod_string + "_primed" + ".PNG")
         endTime = datetime.datetime.now().replace(microsecond=0)
         durationTime = endTime - startTime
-        print ("md.hotspot_primer - Image" + " " + str(indexor+1) + " Image Save:" + str(durationTime))
+        print ("md.manual_primer - Image" + " " + str(indexor+1) + " Image Save:" + str(durationTime))
 
 
 def hotspot_complete(filepath, x, y, find):
