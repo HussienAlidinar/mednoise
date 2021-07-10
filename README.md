@@ -7,7 +7,7 @@
 
 ##### Summary 
 
-mednoise is the fundamental package needed for medical image pre-processing with Python.
+mednoise is the fundamental package needed for medical image (pre)processing with Python.
 
 - **Website:** https://mednoise.github.io
 - **PyPI:** https://pypi.org/project/mednoise/
