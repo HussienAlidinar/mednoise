@@ -2,6 +2,8 @@
 
 [![Downloads](https://pepy.tech/badge/mednoise)](https://pepy.tech/project/mednoise)
 [![Version](https://img.shields.io/badge/version-0.2.1-orange)](https://pepy.tech/project/mednoise)
+[![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://pepy.tech/project/mednoise)
+
 
 ##### Summary 
 
