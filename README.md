@@ -1,5 +1,7 @@
 # <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
 
+[![Downloads](https://pepy.tech/badge/mednoise)](https://pepy.tech/project/mednoise)
+
 ##### Summary 
 
 mednoise is the fundamental package needed for medical image pre-processing with Python.
