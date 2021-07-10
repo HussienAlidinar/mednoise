@@ -1,2 +1,20 @@
-# mednoise
-a python package that contains AI algorithms to handle and pre-process large amounts of image-based metadata to remove noise and enhance the accuracy of machine learning and deep learning models for scientific research
+# <img alt="mednoise" src="/documentation/logo/mednoiselogo.svg" height="60">
+
+**mednoise** is the fundamental package needed for medical image pre-processing with Python.
+
+- **Website:** https://mednoise.github.io
+- **Documentation:** https://mednoise.github.io/documentation
+- **Source code:** https://github.com/mednoise/mednoise
+- **Bug reports:** https://github.com/mednoise/mednoise/issues
+
+It contains:
+- various algorithms to handle and pre-proces large amounts of medical image metadata
+- a highly tuneable interface for many usecases
+- a complex structure that allows for easy integration into workflow/pipeline management systems
+
+##### Installation:
+
+mednoise uses `pip`.  The installation can be run with:
+
+    pip install mednoise
+
