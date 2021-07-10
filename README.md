@@ -11,7 +11,7 @@ mednoise is the fundamental package needed for medical image pre-processing with
 - **Bug reports:** https://github.com/mednoise/mednoise/issues
 
 It contains:
-- various algorithms to handle and pre-proces large amounts of medical image metadata
+- various algorithms to handle and pre-process large amounts of medical image metadata
 - a highly tuneable interface for many usecases
 - a complex structure that allows for easy integration into workflow/pipeline management systems
 
