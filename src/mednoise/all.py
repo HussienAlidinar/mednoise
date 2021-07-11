@@ -74,7 +74,7 @@ def about(header=False):
         if response == "e":
             print("    exiting.")
         if response == "h":
-            print("    documentation can be accessed at https://mednoise.github.com.")
+            print("    documentation can be accessed at https://mednoise.github.io/documentation.")
         print("")
         print("    #############################################################################################")
     if header != True and header != False:
