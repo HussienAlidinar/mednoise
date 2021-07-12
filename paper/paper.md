@@ -66,7 +66,7 @@ makes use of the example image, hosted on the documentation website, that is pro
 
 ![An example usage of `mednoise` with the input file (left) being silenced by the `branch_complete` algorithm yielding the final, primed image (right) \label{fig:one}](fig1.png)
 
-# Package Structure
+# Overview
 
 ## Basics
 `mednoise` is designed in a highly compartmentalized manner. More specifically, the package is divided into methods, which are divided into individual algorithms, which make up a complete algorithm. This way, users can utilize individual parts of `mednoise`, modify its algorithms to fit their own usecases, and evolve `mednoise` into a powerful tool for medical image processing.
