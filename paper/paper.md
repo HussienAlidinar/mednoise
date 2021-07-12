@@ -40,7 +40,7 @@ Many machine learning and deep learning models that analyze images do so by unde
 
 Inevitably, images have some *noise*, areas of pixels that have little to no clinical significance. This could be letters, numbers, and identifying shapes that help align the image and identify it to the patient. To researchers, these pixels hinder the accuracy of their machine learning models as they contain color-specific pixel information that detracts from the areas of significance, either severely inhibiting the accuracy of models or artificially inflating their accuracy (if they contain diagnosis-related structure within them)[@karimi2020deep].
 
-`mednoise` uses a variety of algorithms to reduce and often eliminate noise from images. Naturally, medical images are often varied and have little to no order to them. mednoise is built under that assumption, placing the power to control noise reduction directly in the hands of the researcher.
+`mednoise` uses a variety of algorithms to reduce and often eliminate noise from images. Naturally, medical images are often varied and have little to no order to them. `mednoise` is built under that assumption, placing the power to control noise reduction directly in the hands of the researcher.
 
 The design of `mednoise` lends the package immense potential. mednoise can be easily integrated into any workflow, high-performance computing network, and even medical imaging tools themselves. With its open and highly tuneable structure, this package is useful to almost any usecase related to medical image research.
 
