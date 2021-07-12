@@ -51,7 +51,7 @@ The following example demonstrates the processing of an ultrasound image with `m
 makes use of the example image, hosted on the documentation website, that is provided for generation of reproducible bug reports. 
 ```python
   >>> from mednoise import branch as md
-  >>> md.branch_complete("/example/directory/file.PNG", 450, 350, 500) 
+  >>> md.branch_complete("/example/directory/file.PNG", 415, 400, iterations = 350)
   #file.PNG contains example image from mednoise.github.io/exampleimage.html
   md.branch_complete - Image 1 Importing:0:00:01
   md.branch_complete - Image 1 Converting:0:00:00
