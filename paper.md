@@ -41,6 +41,20 @@ The design of mednoise lends the package immense potential. mednoise can be easi
 mednoise is designed as a tool for pipelines and workflow management systems that rely on medical image metadata (or at least the analysis of that metadata). It aims to create a future of medical imaging that is more accessible and utilizable in the constantly evolving field of medical technology.
 
 # Example
+The following example demonstrates the processing of an ultrasound image with `mednoise`, specifically its `branch` algorithm. The example
+makes use of the example image, hosted on the documentation website, that is provided for generation of reproducible bug reports. 
+
+    >>> from mednoise import branch as md
+    >>> md.branch_complete("/example/directory/file.PNG", 450, 350, 500) #file.PNG contains example image from mednoise.github.io/exampleimage.html
+    md.branch_complete - Image 1 Importing:0:00:01
+    md.branch_complete - Image 1 Converting:0:00:00
+    md.branch_complete - Image 1 Translating:0:00:00
+    md.branch_complete - Image 1 Branching:0:42:04
+    md.branch_complete - Image 1 Branch Analyzing:0:03:02
+    md.branch_complete - Image 1 Branch Isolating:0:00:10
+    md.branch_complete - Image 1 Array Priming:0:00:00
+    md.branch_complete - Image 1 Translating:0:00:00
+    md.branch_complete - Image 1 Saving:0:00:01
 
 # Overview
 
