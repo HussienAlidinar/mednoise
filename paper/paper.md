@@ -20,17 +20,17 @@ bibliography: paper.bib
 
 # Summary
 
-`mednoise` is a library for processing medical images in Python. It contains various algorithms which are highly tuneable, enabling it to encompass a wide variety of scientific use-cases. The algorithms contained in `mednoise` are grounded in `NumPy` arrays. `mednoise` treats each image as a two-dimensional array of pixels which is processed with a variety of manipulations and substitutions. 
+`mednoise` is a library for processing medical images in Python. It contains various algorithms which are highly tuneable, enabling it to encompass a wide variety of scientific use-cases. The algorithms contained in `mednoise` are grounded in `NumPy` arrays [@harris2020array]. `mednoise` treats each image as a two-dimensional array of pixels which is processed with a variety of manipulations and substitutions. 
 
 When given a series of medical images, `mednoise` runs user-requested computations, eventually yielding a final medical image, without noise, that is primed to be analyzed by machine learning and deep learning models.
 
-These noiseless images improve the accuracy of AI imaging models, both supervised and unsupervised, significantly. `mednoise` offers an easy-to-use terminal interface while processing medical images. Additionally, its inference-compatible nature allows for easy integration into existing scientific workflows, like `Luigi, Airflow`, and `Snakemake`. By processing and outputting medical images that heavily improve image-specific AI models, `mednoise` facilitates high-speed scientific model creation and image analysis.
+These noiseless images improve the accuracy of AI imaging models, both supervised and unsupervised, significantly [@karimi2020deep]. `mednoise` offers an easy-to-use terminal interface while processing medical images. Additionally, its inference-compatible nature allows for easy integration into existing scientific workflows, like `Snakemake`. By processing and outputting medical images that heavily improve image-specific AI models, `mednoise` facilitates high-speed scientific model creation and image analysis.
 
 # Statement of need
 
-With the field of artificial intelligence and bioinformatics growing almost exponentially, programming languages have adapted to include more machine learning and deep learning libraries. Within Python, there are `TensorFlow` and `SciKit-Learn`, modules that offer the ability for users to develop AI models with minimal keystrokes.
+With the field of artificial intelligence and bioinformatics growing almost exponentially, programming languages have adapted to include more machine learning and deep learning libraries. Within Python, there is `TensorFlow`, a module that offer the ability for users to develop AI models with minimal keystrokes [@tensorflow2015-whitepaper].
 
-The field of medical imaging, however, has not adapted with similar speed. Medical imaging tools used in medical offices across the world are rarely new and are not optimized for modern AI models.
+The field of medical imaging, however, has not adapted with similar speed. Medical imaging tools used in medical offices across the world are rarely new and are not optimized for modern AI models [@LUNDERVOLD2019102].
 
 Enter `mednoise`, an easily integrable tool designed entirely in Python, to process medical image metadata into usable formats for machine learning models.
 
@@ -38,7 +38,7 @@ More specifically, `mednoise` removes unnecessary noise that has unremarkable cl
 
 Many machine learning and deep learning models that analyze images do so by undergoing a simple computational process – converting an image into a series of pixels, and analyzing those pixels in relation to some structure (ex. a specified diagnosis) to find an inferred structure through complex mathematical formulas.
 
-Inevitably, images have some *noise*, areas of pixels that have little to no clinical significance. This could be letters, numbers, and identifying shapes that help align the image and identify it to the patient. To researchers, these pixels hinder the accuracy of their machine learning models as they contain color-specific pixel information that detracts from the areas of significance, either severely inhibiting the accuracy of models or artificially inflating their accuracy (if they contain diagnosis-related structure within them).
+Inevitably, images have some *noise*, areas of pixels that have little to no clinical significance. This could be letters, numbers, and identifying shapes that help align the image and identify it to the patient. To researchers, these pixels hinder the accuracy of their machine learning models as they contain color-specific pixel information that detracts from the areas of significance, either severely inhibiting the accuracy of models or artificially inflating their accuracy (if they contain diagnosis-related structure within them)[@karimi2020deep].
 
 `mednoise` uses a variety of algorithms to reduce and often eliminate noise from images. Naturally, medical images are often varied and have little to no order to them. mednoise is built under that assumption, placing the power to control noise reduction directly in the hands of the researcher.
 
@@ -83,10 +83,5 @@ makes use of the example image, hosted on the documentation website, that is pro
 
 ## Structure Breakdown: Complete Algorithm
 `mednoise` also has `complete` algorithms within each method. `Complete` algorithms are essentially a combination of the three individual algorithms. This allows for a cleaner usage of `mednoise` in usecases that don’t need to fine-tune the package.
-
-# Acknowledgements
-
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
 
 # References
