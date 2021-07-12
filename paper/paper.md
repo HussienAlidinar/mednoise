@@ -66,22 +66,4 @@ makes use of the example image, hosted on the documentation website, that is pro
 
 ![An example usage of `mednoise` with the input file (left) being silenced by the `branch_complete` algorithm yielding the final, primed image (right) \label{fig:one}](fig1.png)
 
-# Overview
-
-## Basics
-`mednoise` is designed in a highly compartmentalized manner. More specifically, the package is divided into methods, which are divided into individual algorithms, which make up a complete algorithm. This way, users can utilize individual parts of `mednoise`, modify its algorithms to fit their own usecases, and evolve `mednoise` into a powerful tool for medical image processing.
-
-## Structure Diagram
-
-![`mednoise` package structure \label{fig:two}](fig2.png)
-
-## Structure Breakdown: Method
-`mednoise` comes with four main methods. These methods are referred to as `manual`, `hotspot`, `branch`, `artificial`. Essentially, these methods are a different way to process and remove noise from inputted images, allowing `mednoise` to stay as tuneable and functional as possible.
-
-## Structure Breakdown: Individual Algorithm
-`mednoise` also has `individual algorithms` within each `method`. Excluding `manual`, each method has a `calculator`, `analyzer`, and `isolator` algorithm. This step-based processing allows `mednoise` to be easily integrated into inference workflows. Furthermore, it allows users to modify individual steps within an algorithm to fine-tune the package to their usecases.
-
-## Structure Breakdown: Complete Algorithm
-`mednoise` also has `complete` algorithms within each method. `Complete` algorithms are essentially a combination of the three individual algorithms. This allows for a cleaner usage of `mednoise` in usecases that don’t need to fine-tune the package.
-
 # References
