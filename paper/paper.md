@@ -79,7 +79,7 @@ makes use of the example image, hosted on the documentation website, that is pro
 `mednoise` comes with four main methods. These methods are referred to as `manual`, `hotspot`, `branch`, `artificial`. Essentially, these methods are a different way to process and remove noise from inputted images, allowing `mednoise` to stay as tuneable and functional as possible.
 
 ## Structure Breakdown: Individual Algorithm
-`mednoise` also has `individual algorithms` within each `method`. Excluding `manual`, each method has a `calculator`, `analyzer`, and `isolator` algorithm. This step-based processing allows `mednoise` to be easily integrated into inference workflows (ex. `Airflow`, `Luigi`, `Snakemake`). Furthermore, it allows users to modify individual steps within an algorithm to fine-tune the package to their usecases.
+`mednoise` also has `individual algorithms` within each `method`. Excluding `manual`, each method has a `calculator`, `analyzer`, and `isolator` algorithm. This step-based processing allows `mednoise` to be easily integrated into inference workflows. Furthermore, it allows users to modify individual steps within an algorithm to fine-tune the package to their usecases.
 
 ## Structure Breakdown: Complete Algorithm
 `mednoise` also has `complete` algorithms within each method. `Complete` algorithms are essentially a combination of the three individual algorithms. This allows for a cleaner usage of `mednoise` in usecases that don’t need to fine-tune the package.
