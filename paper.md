@@ -20,7 +20,11 @@ bibliography: paper.bib
 
 # Summary
 
-`mednoise` is a library for processing medical images in Python. It contains various algorithms which are highly tuneable, enabling it to encompass a wide variety of scientific use-cases. The algorithms contained in mednoise are grounded in `NumPy` arrays. mednoise treats each image as a two-dimensional array of pixels which is processed with a variety of manipulations and substitutions. When given a series of medical images, mednoise runs user-requested computations on them, as requested by the user, eventually yielding a final medical image, without noise, that is primed to be analyzed by machine learning and deep learning models. These noiseless images improve the accuracy of AI imaging models, both supervised and unsupervised, significantly. mednoise offers an easy-to-use terminal interface while processing medical images. Additionally, its inference-compatible nature allows for easy integration into existing scientific workflows, like `Luigi, Airflow, and Snakemake`. By processing and outputting medical images that heavily improve image-specific AI models, `mednoise` facilitates high-speed scientific model creation and image analysis.
+`mednoise` is a library for processing medical images in Python. It contains various algorithms which are highly tuneable, enabling it to encompass a wide variety of scientific use-cases. The algorithms contained in mednoise are grounded in `NumPy` arrays. mednoise treats each image as a two-dimensional array of pixels which is processed with a variety of manipulations and substitutions. 
+
+When given a series of medical images, mednoise runs user-requested computations, eventually yielding a final medical image, without noise, that is primed to be analyzed by machine learning and deep learning models.
+
+These noiseless images improve the accuracy of AI imaging models, both supervised and unsupervised, significantly. mednoise offers an easy-to-use terminal interface while processing medical images. Additionally, its inference-compatible nature allows for easy integration into existing scientific workflows, like `Luigi, Airflow`, and `Snakemake`. By processing and outputting medical images that heavily improve image-specific AI models, `mednoise` facilitates high-speed scientific model creation and image analysis.
 
 # Statement of need
 
