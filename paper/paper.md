@@ -57,6 +57,9 @@ makes use of the example image, hosted on the documentation website, that is pro
   md.branch_complete - Image 1 Translating:0:00:00
   md.branch_complete - Image 1 Saving:0:00:01
 ```
+
+![An example usage of `mednoise` with the input file (left) being silenced by the `branch_complete` algorithm yielding the final, primed image (right) \label{fig:one}](fig1.png)
+
 # Overview
 
 # Acknowledgements
