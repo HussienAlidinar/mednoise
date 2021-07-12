@@ -11,7 +11,7 @@ authors:
     orcid: https://orcid.org/0000-0001-7109-9894
     affiliation: 1
 affiliations:
- - name: Cincinnati Children's Hospital - Division of Human Genetics
+ - name: Research Assistant, Cincinnati Children's Hospital - Division of Human Genetics
    index: 1
    
 date: 12 July 2020
