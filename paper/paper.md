@@ -56,12 +56,12 @@ makes use of the example image, hosted on the documentation website, that is pro
   md.branch_complete - Image 1 Importing:0:00:01
   md.branch_complete - Image 1 Converting:0:00:00
   md.branch_complete - Image 1 Translating:0:00:00
-  md.branch_complete - Image 1 Branching:0:42:04
-  md.branch_complete - Image 1 Branch Analyzing:0:03:02
-  md.branch_complete - Image 1 Branch Isolating:0:00:10
+  md.branch_complete - Image 1 Branching:0:04:04
+  md.branch_complete - Image 1 Branch Analyzing:0:01:16
+  md.branch_complete - Image 1 Branch Isolating:0:00:02
   md.branch_complete - Image 1 Array Priming:0:00:00
   md.branch_complete - Image 1 Translating:0:00:00
-  md.branch_complete - Image 1 Saving:0:00:01
+  md.branch_complete - Image 1 Saving:0:00:00
 ```
 
 ![An example usage of `mednoise` with the input file (left) being silenced by the `branch_complete` algorithm yielding the final, primed image (right) \label{fig:one}](fig1.png)
