@@ -28,7 +28,7 @@ These noiseless images improve the accuracy of AI imaging models, both supervise
 
 # Statement of need
 
-With the field of artificial intelligence and bioinformatics growing almost exponentially, programming languages have adapted to include more machine learning and deep learning libraries. Within Python, there is `TensorFlow`, a module that offers the ability for users to develop AI models with minimal keystrokes [@tensorflow2015-whitepaper].
+With the field of artificial intelligence and bioinformatics growing almost exponentially, programming languages have adapted to include more machine learning and deep learning libraries. Within Python, there is `TensorFlow`, a module that offers the ability for users to develop AI models with minimal keystrokes [@tensorflow_developers_2021_5043456].
 
 The field of medical imaging, however, has not adapted with similar speed. Medical imaging tools used in medical offices across the world are rarely new and are not optimized for modern AI models [@LUNDERVOLD2019102].
 
@@ -38,7 +38,7 @@ More specifically, `mednoise` removes unnecessary noise that has unremarkable cl
 
 Many machine learning and deep learning models that analyze images do so by undergoing a simple computational process – converting an image into a series of pixels, and analyzing those pixels in relation to some structure (ex. a specified diagnosis) to find an inferred structure through mathematical formulas.
 
-Inevitably, images have some *noise*, areas of pixels that have little to no clinical significance. This could be letters, numbers, and identifying shapes that help align the image and identify it to the patient. To researchers, these pixels hinder the accuracy of their machine learning models as they contain color-specific pixel information that detracts from the areas of significance, either severely inhibiting the accuracy of models or artificially inflating their accuracy (if they contain diagnosis-related structure within them)[@karimi2020deep].
+Inevitably, images have some *noise*, areas of pixels that have little to no clinical significance. This could be letters, numbers, and identifying shapes that help align the image and identify it to the patient. To researchers, these pixels hinder the accuracy of their machine learning models as they contain color-specific pixel information that detracts from the areas of significance, either severely inhibiting the accuracy of models or artificially inflating their accuracy (if they contain diagnosis-related structure within them)[@KARIMI2020101759].
 
 `mednoise` uses a variety of algorithms to reduce and often eliminate noise from images. Naturally, medical images are often varied and have little to no order to them. `mednoise` is built under that assumption, placing the power to control noise reduction directly in the hands of the researcher.
 
