@@ -1,6 +1,6 @@
 # <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
 
-[![Downloads](https://pepy.tech/badge/mednoise)](https://pepy.tech/project/mednoise)
+[![Downloads](https://img.shields.io/pypi/dm/mednoise?color=blue&style=flat-square)](https://pepy.tech/project/mednoise)
 [![Version](https://img.shields.io/badge/version-1.2.4-orange)](https://pepy.tech/project/mednoise)
 [![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://pepy.tech/project/mednoise)
 
