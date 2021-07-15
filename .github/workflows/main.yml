@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: mednoise - JOSS PDF Generator
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mednoise - JOSS PDF Generator
+        uses: openjournals/openjournals-draft-action@v.1.0
+        with:
+          journal: joss
+          paper-path: ./paper/paper.md
