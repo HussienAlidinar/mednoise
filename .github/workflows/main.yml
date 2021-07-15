@@ -2,21 +2,25 @@
 
 name: mednoise - JOSS PDF Generator
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  workflow_dispatch:
+on: [push]
 
 jobs:
-  build:
+  paper:
     runs-on: ubuntu-latest
+    name: mednoise - JOSS PDF Generator
     steps:
-      - uses: actions/checkout@v2
-      - name: mednoise - JOSS PDF Generator
-        uses: openjournals/openjournals-draft-action@v.1.0
+      - name: mednoise - Checkout
+        uses: actions/checkout@v2
+      - name: mednoise - Build PDF
+        uses: openjournals/openjournals-draft-action@master
         with:
           journal: joss
           paper-path: paper/paper.md
+      - name: mednoise - Upload PDF
+        uses: actions/upload-artifact@v1
+        with:
+          name: mednoise - Paper
+          # This is the output path where Pandoc will write the compiled
+          # PDF. Note, this should be the same directory as the input
+          # paper.md
+          path: /paper/JOSS_mednoise.pdf
