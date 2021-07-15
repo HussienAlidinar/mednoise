@@ -18,4 +18,4 @@ jobs:
         uses: openjournals/openjournals-draft-action@v.1.0
         with:
           journal: joss
-          paper-path: /paper/paper.md
+          paper-path: paper.md
