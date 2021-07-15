@@ -1,4 +1,4 @@
-# <img alt="mednoise" src="/documentation/logo/mednoise.png" height="60">
+# <img alt="mednoise" src="https://mednoise.github.io/_static/logo.png" height="60">
 
 [![Downloads](https://img.shields.io/pypi/dm/mednoise?color=blue&style=flat-square)](https://mednoise.github.io)
 [![Version](https://img.shields.io/pypi/v/mednoise?color=orange&label=version&style=flat-square)](https://mednoise.github.io)
