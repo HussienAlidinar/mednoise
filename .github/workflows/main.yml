@@ -2,7 +2,7 @@
 
 name: mednoise - JOSS PDF Generator
 
-on:[workflow-run]
+on: [pull]
 
 jobs:
   paper:
