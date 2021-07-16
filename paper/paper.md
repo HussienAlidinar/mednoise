@@ -8,7 +8,7 @@ tags:
   - machine learning
 authors:
   - name: Ravi Bandaru
-    orcid: https://orcid.org/0000-0001-7109-9894
+    orcid: 0000-0001-7109-9894
     affiliation: 1
 affiliations:
  - name: Research Assistant, Cincinnati Children's Hospital - Division of Human Genetics
