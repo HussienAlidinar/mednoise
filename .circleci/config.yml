@@ -41,10 +41,3 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: python3 tests/tests_import.py
-  upload-to-codecov:
-    machine:
-      - image: ubuntu-1604:202007-01
-    steps:
-      - checkout
-      - codecov/upload
-
