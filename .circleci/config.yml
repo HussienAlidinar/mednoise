@@ -40,7 +40,7 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: python3 tests/tests_branch.py ; python3 tests/tests_hotspot.py ; python3 tests/tests_branch.py
+          command: python3 tests/tests_import.py
   upload-to-codecov:
     machine:
       - image: ubuntu-1604:202007-01
