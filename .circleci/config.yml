@@ -38,4 +38,4 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: python3 tests/tests_import.py
+          command: python3 tests/tests_import.py ; python3 tests/tests_manual.py ; python3 tests/tests_branch.py ; python3 tests/tests_artificial.py
