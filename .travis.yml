@@ -6,3 +6,4 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install mednoise
+script: python3 tests/tests_manual.py
