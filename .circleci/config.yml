@@ -41,7 +41,7 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: python3 tests/tests_branch.py ; python3 tests/tests_hotspot.py ; python3 tests/tests_branch.py
-   upload-to-codecov:
+  upload-to-codecov:
     steps:
       - checkout
       - codecov/upload
