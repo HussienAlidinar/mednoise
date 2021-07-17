@@ -1,4 +1,3 @@
-Tkinter
 glob2
 numpy
 scipy
