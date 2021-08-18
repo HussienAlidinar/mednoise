@@ -7,7 +7,7 @@ models for scientific research.
 https://pypi.python.org/pypi/mednoise/
 https://github.com/mednoise/mednoise/
 
-Copyright (C) 2021 Ravi Bandaru, <ravi14.bandaru@gmail.com>
+Copyright (C) 2021 Ravi Bandaru, <ravibandaru-lab@outlook.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
