@@ -126,8 +126,6 @@ def about(header=False):
     if header != True and header != False:
         raise ValueError('header argument was incorrectly specified. note that it is a boolean attribute.')
 
-about(True)
-
 
 def manual_merge(filepath, find = (0,0,0), replace = (255,255,255)):
     """
